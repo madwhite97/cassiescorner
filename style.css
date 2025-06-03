@@ -1,0 +1,305 @@
+html {
+/* https://grabient.com/HQDgrAzANMBsCcB2KBGYAGMsoFp3BXjBhXXRIgCZd8xEQbhKAWaPYK5d9CYjZrvkKUgA/ */
+
+background: linear-gradient(180deg, #a9caff 0.000%, rgba(184, 203, 255, 1.000) 16.667%, rgba(211, 203, 255, 1.000) 33.333%, rgba(240, 200, 249, 1.000) 50.000%, rgba(255, 197, 241, 1.000) 66.667%, rgba(255, 192, 236, 1.000) 83.333%, rgba(255, 186, 236, 1.000) 100.000%)
+}
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: rgb(5, 57, 96);
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Tuffy", sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    background-color: rgb(169, 162, 199);
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 30px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+    margin-left: 75px;
+    margin-top: 5%;
+    margin-bottom: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(./images/Card\ 1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card2 {
+    background-image: url(./images/Card\ 2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card3 {
+    background-image: url(./images/Card\ 3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
+}
+
+.card1 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
+.card2, .card3 {
+    padding: 50px 30px 25px 30px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    flex: 2;
+    padding-right: 100px;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: "Tuffy", sans-serif;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+p {
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+    font-family: "Tuffy", sans-serif;
+}
+
+.button {
+    background-color: white;
+    color:  rgb(88, 14, 88);
+    font-family: "Tuffy", sans-serif;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.0228);
+}
+
+.button:hover {
+    background-color: #a9caff;
+    transition-duration: 1s;
+}
+
+a.button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.navbutton {
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family: "Tuffy", sans-serif;
+    display: inline-block;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poetsen One", sans-serif;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+}
+
+.box2 {
+    font-family: "Tuffy", sans-serif;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(27, 24, 28, 0.523);
+    height: 200px;
+    width: 30%;
+    margin-left: 545px;
+    margin-right: 545px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.col {
+    font-family:  "Tuffy", sans-serif;
+}
+
+.row {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.services {
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main2 h1 {
+    font-family: "Poetsen One", sans-serif;
+    display: left;
+}
+
+.main2 p {
+    font-family: "Tuffy", sans-serif;
+    margin-bottom: 75px;
+}
+
+.inputwrapper {
+    margin-left: 75px;
+    padding-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: "Tuffy", sans-serif;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.margin-right-a {
+    margin-right: 20px;
+}
+
+input[type=radip] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 2px 0px;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main2 img {
+    margin-left: 850px;
+}
+
+footer {
+    align-items: center;
+    margin-left: 500px;
+}
+
+.main3 {
+    padding-right: 50px;
+}
